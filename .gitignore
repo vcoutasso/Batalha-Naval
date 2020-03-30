@@ -259,13 +259,9 @@ paket-files/
 # Python Tools for Visual Studio (PTVS)
 __pycache__/
 *.pyc
-Batalha Naval/jogo.o
-Batalha Naval/main
-Batalha Naval/main.o
-Batalha Naval/menu_principal.o
-Batalha Naval/opcoes_menu.o
-Batalha Naval/funcoes_jogo.o
-Batalha Naval/tabuleiro1.txt
-Batalha Naval/tabuleiro2.txt
-Batalha Naval/recordes.txt
-Batalha Naval/gcompile
+
+*.o
+tabuleiro1.txt
+tabuleiro2.txt
+recordes.txt
+Batalha-Naval
