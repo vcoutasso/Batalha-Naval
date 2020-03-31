@@ -9,7 +9,7 @@ int o_jogo(int tab_size, int game_mode, ALLEGRO_TIMER *timer, ALLEGRO_EVENT_QUEU
 
 	// Configura o nome dos arquivos .png de acordo com o tamanho de tabuleiro, visto que cada tabuleiro tem seu
 	// conjunto de arquivos.
-	char bitmap_barco[4][50] = { "Resources/barco2_", "Resources/barco3_", "Resources/barco4_", "Resources/barco5_" };
+	char bitmap_barco[4][50] = { "bin/barco2_", "bin/barco3_", "bin/barco4_", "bin/barco5_" };
 
 	for (i = 0; i < 4; i++) {
 		if (tab_size == 8)
@@ -21,9 +21,9 @@ int o_jogo(int tab_size, int game_mode, ALLEGRO_TIMER *timer, ALLEGRO_EVENT_QUEU
 	}
 
 
-	ALLEGRO_FONT *small_font = al_load_ttf_font("Resources/Chunkfive.otf", 50, 0);
-	ALLEGRO_FONT *font1 = al_load_ttf_font("Resources/CooperHewitt-Heavy.otf", HOVER_FSIZE, 0);
-	ALLEGRO_FONT *tiny_little_font = al_load_ttf_font("Resources/CooperHewitt-Heavy.otf", 20, 0);
+	ALLEGRO_FONT *small_font = al_load_ttf_font("bin/Chunkfive.otf", 50, 0);
+	ALLEGRO_FONT *font1 = al_load_ttf_font("bin/CooperHewitt-Heavy.otf", HOVER_FSIZE, 0);
+	ALLEGRO_FONT *tiny_little_font = al_load_ttf_font("bin/CooperHewitt-Heavy.otf", 20, 0);
 
 	// Vetor contendo todos os bitmaps.
 	ALLEGRO_BITMAP *barquinho[] = { al_load_bitmap(bitmap_barco[0]), al_load_bitmap(bitmap_barco[1]), al_load_bitmap(bitmap_barco[1]), al_load_bitmap(bitmap_barco[2]), al_load_bitmap(bitmap_barco[3]) };

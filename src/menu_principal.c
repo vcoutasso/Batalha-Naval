@@ -61,16 +61,16 @@ void invoke_main_menu() {
 
 	// Declaração de membros das structs da biblioteca allegro.
 	ALLEGRO_DISPLAY *display = al_create_display(SCREEN_WIDTH, SCREEN_HEIGHT);
-	ALLEGRO_FONT *font = al_load_ttf_font("Resources/Chunkfive.otf", normal_font_size, 0);
-	ALLEGRO_FONT *emph_font = al_load_ttf_font("Resources/Chunkfive.otf", emph_font_size, 0);
-	ALLEGRO_FONT *grow_font = al_load_ttf_font("Resources/Chunkfive.otf", grow_font_size, 0);
-	ALLEGRO_FONT *tut_font = al_load_ttf_font("Resources/Chunkfive.otf", tut_font_size, 0);
+	ALLEGRO_FONT *font = al_load_ttf_font("bin/Chunkfive.otf", normal_font_size, 0);
+	ALLEGRO_FONT *emph_font = al_load_ttf_font("bin/Chunkfive.otf", emph_font_size, 0);
+	ALLEGRO_FONT *grow_font = al_load_ttf_font("bin/Chunkfive.otf", grow_font_size, 0);
+	ALLEGRO_FONT *tut_font = al_load_ttf_font("bin/Chunkfive.otf", tut_font_size, 0);
 	ALLEGRO_EVENT_QUEUE *queue = al_create_event_queue();
-	ALLEGRO_SAMPLE *click = al_load_sample("Resources/click.wav");
-	ALLEGRO_SAMPLE *blop = al_load_sample("Resources/blop.wav");
+	ALLEGRO_SAMPLE *click = al_load_sample("bin/click.wav");
+	ALLEGRO_SAMPLE *blop = al_load_sample("bin/blop.wav");
 	ALLEGRO_TIMER *display_timer = al_create_timer((float)1 / fps);
 	ALLEGRO_EVENT event;
-	ALLEGRO_BITMAP *icon = al_load_bitmap("Resources/icon.png");
+	ALLEGRO_BITMAP *icon = al_load_bitmap("bin/icon.png");
 	const ALLEGRO_COLOR light_blue = al_map_rgb(0, 180, 255), yellow = al_map_rgb(255, 180, 0), orange = al_map_rgb(255, 180, 90);
 
 	// Caso algum dos ponteiros esteja apontando para NULL mesmo após a inicialização, uma mensagem de erro é exibida e o programa é encerrado. 
