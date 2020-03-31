@@ -1,6 +1,6 @@
 # Batalha-Naval
 
-Projeto final da disciplina de Fundamentos de Programação 1 desenvolvido por Vinícius Couto e Pablo Rodrigues (2018/02).
+Projeto final da disciplina de Fundamentos de Programação 1 desenvolvido por Pablo Rodrigues e Vinícius Couto (2018/02).
 
 O projeto consiste de uma implementação do jogo de tabuleiro Batalha Naval, desenvolvida totalmente na linguagem C com o auxílio da biblioteca gráfica Allegro.
 O jogo foi criado para permitir partidas de 2 jogadores (jogador vs jogador) ou 1 jogador (jogador vs máquina).
